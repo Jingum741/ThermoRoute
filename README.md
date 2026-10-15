@@ -70,7 +70,7 @@ ThermoRoute/
 Python 3.10 or later is recommended; the archived results were produced with Python 3.13 and on Google Colab.
 
 ```bash
-git clone https://github.com/<your-user>/ThermoRoute.git
+git clone https://github.com/<jingum741>/ThermoRoute.git
 cd ThermoRoute
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
