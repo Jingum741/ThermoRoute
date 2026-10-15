@@ -1,0 +1,20 @@
+\begin{table}[!t]
+\centering
+\caption{Results at SoC-A, 25 \textdegree C ambient, agent workload (mean $\pm$ 95\% CI over 20 seeds)}
+\label{tab:main}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lccccccc}
+\hline
+Method & Peak skin ($^\circ$C) & Throttle (s) & PPL & p95 lat. (s) & SLO viol. (\%) & J/token & Tokens/charge ($10^3$) \\
+\hline
+EdgeMoE & $43.09\pm0.02$ & $305.0\pm53.0$ & $8.93\pm0.00$ & $16.50\pm0.81$ & $7.5\pm1.6$ & $0.1950\pm0.0018$ & $355.4\pm3.3$ \\
+EdgeLLM & $43.18\pm0.02$ & $486.8\pm44.5$ & $8.93\pm0.00$ & $17.99\pm0.93$ & $12.8\pm1.6$ & $0.2078\pm0.0020$ & $333.6\pm3.2$ \\
+ReactiveDVFS & $42.04\pm0.09$ & $0.0\pm0.0$ & $8.93\pm0.00$ & $16.54\pm0.83$ & $5.0\pm1.6$ & $0.1858\pm0.0022$ & $373.2\pm4.4$ \\
+FiDRL & $34.93\pm0.08$ & $0.0\pm0.0$ & $8.93\pm0.00$ & $20.02\pm0.46$ & $0.3\pm0.2$ & $0.1402\pm0.0017$ & $494.5\pm5.9$ \\
+StaticK4 & $42.99\pm0.12$ & $165.4\pm47.4$ & $11.53\pm0.00$ & $9.79\pm0.45$ & $0.0\pm0.0$ & $0.1324\pm0.0010$ & $523.7\pm4.0$ \\
+\textbf{ThermoRoute} & $35.99\pm0.32$ & $0.0\pm0.0$ & $9.38\pm0.00$ & $15.00\pm0.25$ & $0.0\pm0.0$ & $0.1140\pm0.0004$ & $607.8\pm2.1$ \\
+ThermoRoute+Spec & $36.81\pm0.34$ & $0.0\pm0.0$ & $9.38\pm0.00$ & $14.81\pm0.24$ & $0.0\pm0.0$ & $0.1214\pm0.0004$ & $571.0\pm2.0$ \\
+Oracle & $35.99\pm0.32$ & $0.0\pm0.0$ & $9.38\pm0.00$ & $15.00\pm0.25$ & $0.0\pm0.0$ & $0.1140\pm0.0004$ & $607.8\pm2.1$ \\
+\hline
+\end{tabular}}
+\end{table}

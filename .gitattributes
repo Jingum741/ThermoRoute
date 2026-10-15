@@ -1,0 +1,7 @@
+*.ipynb linguist-language=Python
+*.pkl binary
+*.npz binary
+*.zip binary
+*.png binary
+results/** linguist-generated
+data/** linguist-generated

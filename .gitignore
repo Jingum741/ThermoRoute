@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+results/samples/
+results/traces/
+ThermoRoute_pack/
+ThermoRoute_results.zip
+ThermoRoute_figures_900dpi.zip
+Downloads/
+*.pdf

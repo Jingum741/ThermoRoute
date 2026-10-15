@@ -1,0 +1,13 @@
+# Simulator, statistics, tables and figures (Steps 3 to 7)
+numpy
+scipy
+pandas
+matplotlib
+
+# Model profiling and LMSYS request lengths (Steps 1 and 2, GPU recommended)
+transformers==4.51.3
+torch
+accelerate
+bitsandbytes
+datasets
+huggingface_hub
